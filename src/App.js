@@ -4,23 +4,14 @@ import './App.css';
 
 const NavBar = () => (
   <div className="navbar">
-    <h3>Task Manager</h3>
-    <Link to="/">Current Tasks</Link>
-    <Link to="/completed">Completed Tasks</Link>
+    <h3>Personal Medical Assistant</h3>
   </div>
 );
 
 const Template = (props) => (
   <div>
     <NavBar />
-    <p className="page-info">
-      {props.title}:
-    </p>
-    <ul className={props.status}>
-        <li>Task 1</li>
-        <li>Task 2</li>
-        <li>Task 3</li>
-    </ul>
+    <h1>Personal Medical Assistant</h1>
   </div>
 );
 
