@@ -29,3 +29,11 @@
   color: #ff6347;
   text-decoration: line-through;
 }
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%;
+  }
+  

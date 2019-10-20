@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
+import DatePicker from './components/DatePicker/index'
+import { height } from '@material-ui/system';
+
 
 const NavBar = () => (
   <div className="navbar">
@@ -11,12 +14,19 @@ const NavBar = () => (
 const Template = (props) => (
   <div>
     <NavBar />
-    <h1>Personal Medical Assistant</h1>
+    
+    <div>
+    <h1 style={{textAlign:'center'}}>Personal Medical Assistant</h1>
+    <img className="displayed" src="https://github.com/novakvova/AndroidBackend/blob/master/BackEndChoco/uploadedimages/57d78085-aa47-4cba-aee2-eca9e227bee4.jpg?raw=true"  alt="aaaa yyyy begemoot"/>
+    </div>
   </div>
 );
 
 const CurrentTasks = () => (
-  <Template title="Current Tasks" status="Current"/>
+  <Template title="Current Tasks" status="Current">
+   
+    </Template>
+  
 );
 
 const CompletedTasks = () => (
